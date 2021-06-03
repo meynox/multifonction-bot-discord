@@ -161,7 +161,7 @@ async def stats(ctx):
 @bot.command()
 async def statsbot(ctx):
     embed = discord.Embed(title=f"{ctx.message.author} voici les informations de Xira-Bot 🤖 " , description=f"Je suis dans {len(bot.guilds)} serveurs !" ,color=ctx.author.color)
-    embed.add_field(name="Créateur 👑 : ", value="``Zeyox``", inline=True)
+    embed.add_field(name="Créateur 👑 : ", value="``Meynox``", inline=True)
 
     await ctx.send(embed=embed)
 
